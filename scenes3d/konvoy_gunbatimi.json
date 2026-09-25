@@ -1,0 +1,128 @@
+{
+  "output": "renders/konvoy_gunbatimi_3d.png",
+  "time": 1.5,
+  "ocean": {
+    "size": 80,
+    "segments": 512,
+    "choppiness": 1.2,
+    "waves": [
+      {
+        "amplitude": 0.28,
+        "wavelength": 12.0,
+        "direction_deg": 15,
+        "steepness": 0.65
+      },
+      {
+        "amplitude": 0.16,
+        "wavelength": 6.5,
+        "direction_deg": 42,
+        "steepness": 0.55
+      },
+      {
+        "amplitude": 0.09,
+        "wavelength": 3.2,
+        "direction_deg": 65,
+        "steepness": 0.45
+      },
+      {
+        "amplitude": 0.05,
+        "wavelength": 1.6,
+        "direction_deg": 85,
+        "steepness": 0.3
+      }
+    ]
+  },
+  "float": {
+    "amplitude_scale": 1.5
+  },
+  "ships": [
+    {
+      "tip": "konteyner",
+      "ad": "Kargo",
+      "pos": [
+        4,
+        20
+      ],
+      "heading_deg": 272,
+      "boy": 26,
+      "renkler": {
+        "govde": [
+          0.015,
+          0.04,
+          0.1
+        ],
+        "baca": [
+          0.45,
+          0.1,
+          0.08
+        ]
+      }
+    },
+    {
+      "tip": "tanker",
+      "ad": "Tanker",
+      "pos": [
+        16,
+        34
+      ],
+      "heading_deg": 264,
+      "boy": 20,
+      "renkler": {
+        "govde": [
+          0.03,
+          0.03,
+          0.035
+        ],
+        "baca": [
+          0.55,
+          0.14,
+          0.08
+        ]
+      }
+    }
+  ],
+  "sun": {
+    "elevation_deg": 2,
+    "azimuth_deg": 200,
+    "strength": 6.5,
+    "color": [
+      1.0,
+      0.4,
+      0.1
+    ],
+    "disk": {
+      "radius": 2.8,
+      "strength": 5.0,
+      "color": [
+        1.0,
+        0.45,
+        0.15
+      ]
+    }
+  },
+  "sky": {
+    "turbidity": 6.0,
+    "dust": 4.0,
+    "strength": 1.4
+  },
+  "camera": {
+    "position": [
+      -3,
+      -16,
+      3.2
+    ],
+    "look_at": [
+      0,
+      8,
+      1.5
+    ],
+    "lens": 30
+  },
+  "render": {
+    "width": 1600,
+    "height": 900,
+    "samples": 128,
+    "exposure": 0.6,
+    "look": "Medium High Contrast"
+  }
+}
