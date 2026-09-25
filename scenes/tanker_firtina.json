@@ -1,0 +1,21 @@
+{
+  "sim": { "width": 960, "height": 540, "fps": 20, "frames": 150,
+           "view_span": 120, "amplitud_px": 16,
+           "dalgalar": [
+             {"lam": 120, "genlik": 1.4, "yon": 0.05},
+             {"lam": 65, "genlik": 0.9, "yon": -0.1},
+             {"lam": 38, "genlik": 0.5, "yon": 0.12},
+             {"lam": 22, "genlik": 0.3, "yon": -0.06}
+           ] },
+  "palette": {
+    "sky_top": [38, 40, 48], "sky_bottom": [95, 100, 110],
+    "deniz": [8, 12, 18], "yuzey_cizgi": [150, 160, 175]
+  },
+  "ships": [
+    { "x": 0.42, "boy": 320, "yuk": 52, "draft": 8,
+      "renkler": { "govde": [25, 28, 34], "üst": [60, 62, 70],
+                    "üst2": [45, 47, 55], "baca": [90, 30, 25],
+                    "konteynerler": true } }
+  ],
+  "output": "renders/tanker_firtina.gif"
+}

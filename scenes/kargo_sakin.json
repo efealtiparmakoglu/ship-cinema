@@ -1,0 +1,20 @@
+{
+  "sim": { "width": 960, "height": 540, "fps": 20, "frames": 140,
+           "view_span": 120, "amplitud_px": 5,
+           "dalgalar": [
+             {"lam": 150, "genlik": 0.5, "yon": 0.0},
+             {"lam": 70, "genlik": 0.25, "yon": 0.1},
+             {"lam": 40, "genlik": 0.12, "yon": -0.05}
+           ] },
+  "palette": {
+    "sky_top": [110, 150, 200], "sky_bottom": [200, 220, 240],
+    "deniz": [18, 60, 95], "yuzey_cizgi": [190, 215, 230]
+  },
+  "ships": [
+    { "x": 0.5, "boy": 260, "yuk": 40, "draft": 5,
+      "renkler": { "govde": [40, 45, 60], "üst": [220, 220, 225],
+                    "üst2": [180, 185, 195], "baca": [120, 40, 30],
+                    "konteynerler": true } }
+  ],
+  "output": "renders/kargo_sakin.gif"
+}

@@ -1,0 +1,22 @@
+{
+  "sim": { "width": 960, "height": 540, "fps": 20, "frames": 140,
+           "view_span": 140, "amplitud_px": 9,
+           "dalgalar": [
+             {"lam": 130, "genlik": 0.8, "yon": 0.0},
+             {"lam": 60, "genlik": 0.4, "yon": 0.1},
+             {"lam": 34, "genlik": 0.2, "yon": -0.06}
+           ] },
+  "palette": {
+    "sky_top": [64, 36, 90], "sky_bottom": [255, 140, 60],
+    "deniz": [40, 20, 30], "yuzey_cizgi": [255, 190, 120]
+  },
+  "ships": [
+    { "x": 0.3, "boy": 230, "yuk": 38, "draft": 5,
+      "renkler": { "govde": [60, 35, 50], "üst": [200, 190, 210],
+                    "üst2": [160, 150, 180], "baca": [40, 30, 50] } },
+    { "x": 0.68, "boy": 190, "yuk": 32, "draft": 4,
+      "renkler": { "govde": [50, 45, 60], "üst": [190, 180, 205],
+                    "üst2": [150, 140, 175], "baca": [35, 30, 45] } }
+  ],
+  "output": "renders/gunbatimi_konvoy.gif"
+}
